@@ -11,14 +11,15 @@ CamelCased parts of the string will be preserved.
 
 Example usage:
 
-.. code-block:: python
-    >>> from camelcase import camelcase
-    >>> camelcase('foo-Bar')
-    'fooBar'
-    >>> camelcase('fooBar')
-    'fooBar'
-    >>> camelcase(['foo', 'Bar'])
-    'fooBar'
+```python
+>>> from camelcase import camelcase
+>>> camelcase('foo-Bar')
+'fooBar'
+>>> camelcase('fooBar')
+'fooBar'
+>>> camelcase(['foo', 'Bar'])
+'fooBar'
+```
 
 Installing
 ==========
