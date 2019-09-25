@@ -1,2 +1,2 @@
 # camelcase
-Python port of javascript camelcase library
+Python port of javascript [camelcase](https://github.com/sindresorhus/camelcase) library
